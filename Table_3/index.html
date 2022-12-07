@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +8,23 @@
         <title>Document</title>
     </head>
     <body>
+        <header>
+            <h1>Exercicio 3</h1>
+        </header>
         <form action="">
             <label for="marca">Marca</label>
-            <input type="text">
+            <input type="text" placeholder="Nissan">
 
             <label for="modelo">Modelo</label>
-            <input type="text">
+            <input type="text" placeholder="Frontier">
 
             <label for="placa">Placa</label>
-            <input type="text">
+            <input type="text" placeholder="XXX0X00">
 
             <label for="ano">Ano</label>
-            <input type="number">
+            <input type="number" name="ano" id="ano" min="1900" max="2099" step="1" value="2016" placeholder="2016">
+            
+            <button type="submit">Enviar</button>
         </form>
         
     </body>
