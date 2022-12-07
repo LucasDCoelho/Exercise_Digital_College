@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
@@ -62,22 +62,21 @@ form input,select{
 }
 
 form button{
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    padding: 8px 20px;
+    width: 140px;
+    height: 40px;
+    display: block;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: cadetblue;
     color: aliceblue;
-    border-color: cadetblue;
+    border: none;
     text-shadow: 0px 1px 1px #000;
     box-shadow: 0px 2px 1px #000;
+    cursor: pointer;
 }
 
 form button:hover{
     background-color: rgb(114, 192, 195);
-    border-color: rgb(114, 192, 195);
 }
 
 form button:active{
