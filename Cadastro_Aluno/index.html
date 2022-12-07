@@ -5,13 +5,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./CSS/style.css">
-        <title>Document</title>
+        <title>Cadastro_de_Aluno</title>
     </head>
     <body>
         <header>
-            <h1>Exercicio 1</h1>
+            <h1>Cadastro Aluno</h1>
         </header>
        <form action="">
+            <label for="nome" >Nome</label>
+            <input type="text" placeholder="Digite seu nome">
+            <label for="email" >Email</label> 
+            <input type="text" placeholder="Digite seu email">
+            <label for="tel" >Telefone</label>
+            <input type="text" placeholder="(00) 0 0000-0000">
+            
+            <label for="maculino" class="meia-label">
+                <input type="radio" name="sexo" checked> Masculino
+            </label>
+            <label for="feminino" class="meia-label">
+                <input type="radio" name="sexo"> Feminino
+            </label>
+            <label for="ensino_medio">
+                <input type="checkbox" name="ensino_medio" id="ensino_medio"> Ensino Médio
+            </label>
+            <label for="graduacao">
+                <input type="checkbox" name="graduacao" > Graduação
+            </label>
+            <label for="pos_graduacao">
+                <input type="checkbox" name="pos_graduacao" > Pós Graduação
+            </label>
             <label for="estados">Estado</label>
             <select name="estados" id="estados">
                 <option value="value_1">Ceará</option>

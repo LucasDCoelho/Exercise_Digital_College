@@ -10,10 +10,10 @@ body{
     background-color: black;
 }
 
-h1{
+header h1{
     color: azure;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 60px;
 }
 
 form{
@@ -29,6 +29,19 @@ form{
 
 form label{
     color: rgb(40, 105, 107);
+}
+
+form input[type="radio"],
+form input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+form .meia-label{
+    display: inline-block;
+    width: 40%;
 }
 
 form label, 
@@ -58,4 +71,15 @@ form button{
     background-color: cadetblue;
     color: aliceblue;
     border-color: cadetblue;
+    text-shadow: 0px 1px 1px #000;
+    box-shadow: 0px 2px 1px #000;
+}
+
+form button:hover{
+    background-color: rgb(114, 192, 195);
+    border-color: rgb(114, 192, 195);
+}
+
+form button:active{
+    box-shadow: inset 0px 2px 1px #000;
 }
